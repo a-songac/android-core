@@ -1,7 +1,7 @@
 package com.arnaud.android.core.activity;
 
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AppCompatActivity;
 
 import com.arnaud.android.core.fragment.IBaseFragment;
 
@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Class to implement base activity with fragment transaction on back pressed
  */
-public class BaseActivity extends FragmentActivity {//TODO: Which activity to extend?
+public class BaseActivity extends AppCompatActivity {//TODO: Which activity to extend?
 
     @Override
     public void onBackPressed() {

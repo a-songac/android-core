@@ -7,9 +7,6 @@ import android.util.Log;
  */
 public class LogUtils {
 
-    /**
-     * Tag for Soluteo log
-     */
     private static String LOG_TAG = "ARNO_LOG_TAG";
 
     /**

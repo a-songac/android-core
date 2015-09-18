@@ -6,7 +6,7 @@ import android.content.Context;
 import com.arnaud.android.core.utils.LogUtils;
 
 /**
- * Created by Arnaud on 2015-09-07.
+ * Base Application
  */
 public class BaseApplication extends Application {
 
